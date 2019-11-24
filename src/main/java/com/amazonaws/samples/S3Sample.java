@@ -68,8 +68,6 @@ public class S3Sample {
 
         /*
          * The ProfileCredentialsProvider will return your [default]
-         * credential profile by reading from the credentials file located at
-         * (C:\\Users\\saura\\.aws\\credentials).
          */
         AWSCredentials credentials = null;
         try {
