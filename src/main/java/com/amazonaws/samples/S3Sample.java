@@ -76,9 +76,7 @@ public class S3Sample {
             credentials = new ProfileCredentialsProvider("default").getCredentials();
         } catch (Exception e) {
             throw new AmazonClientException(
-                    "Cannot load the credentials from the credential profiles file. " +
-                    "Please make sure that your credentials file is at the correct " +
-                    "location (C:\\Users\\saura\\.aws\\credentials), and is in valid format.",
+                    "Cannot load the credentials from the credential profiles file. ",
                     e);
         }
 
